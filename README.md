@@ -16,7 +16,7 @@ void printTime(){
   
 #4.1
 <pre>
-include<stdio.h>
+#include <stdio.h>
 
 void printTime(){
   
@@ -25,8 +25,9 @@ void printTime(){
   int main(){
 int h ,min;
   printf("ENTER NUM OF H AND M");
-  scanf("%2d%02d",&h,&min);
-  printf("the time is %d:%d",h,min);
+  scanf("%d%d",&h,&min);
+  if(h>)....... contonue....
+  printf("the time is %02d:%02d",h,min);
 
   return 0;
   }
