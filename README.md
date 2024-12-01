@@ -1,6 +1,6 @@
 init
 <pre> 
-  include<stdio.h>
+#include <stdio.h>
 
 void printTime(){
   
@@ -34,3 +34,20 @@ int h ,min;
   return 0 ;
   }
 <pre\>
+
+  
+#4.2
+<pre> 
+#include <stdio.h>
+
+void scan_dist(){
+  
+}
+  
+  int main(){
+
+  return 0;
+  }
+<pre\>
+
+  
