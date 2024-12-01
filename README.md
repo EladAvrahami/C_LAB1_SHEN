@@ -23,8 +23,10 @@ void printTime(){
 }
   
   int main(){
-int min, h;
-  printTime()
+int h ,min;
+  printf("ENTER NUM OF H AND M");
+  scanf("%2d%2d",&h,&min);
+  printTime();
 
   return 0;
   }
