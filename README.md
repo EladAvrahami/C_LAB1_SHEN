@@ -31,6 +31,6 @@ int h ,min;
     }else{
   printf("one or two of the integer is not valid");
 }
-  return 0;
+  return 0 ;
   }
 <pre\>
