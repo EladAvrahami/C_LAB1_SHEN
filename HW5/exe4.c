@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-void printBinary(int num)
+void printBin(int num)
 {
     if (num > 1)
     {
-        printBinary(num / 2); // קריאה ריקורסיבית עם חצי מהמספר
+        printBin(num / 2); // קריאה ריקורסיבית עם חצי מהמספר
     }
     printf("%d", num % 2); // הדפסת שארית החילוק ב-2
 }
@@ -22,7 +22,7 @@ int main()
     }
     else
     {
-        printBinary(num); // קריאה לפונקציה הריקורסיבית
+        printBin(num); // קריאה לפונקציה הריקורסיבית
     }
 
     return 0;
