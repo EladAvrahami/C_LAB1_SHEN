@@ -11,7 +11,7 @@ int main(){
 }
 <pre\>
 
-
+%lu -מציין שצפוי מספר שלם חיובי ללא סימן (unsigned long)
 postfix:
 if a=2
 a=c++ ->
