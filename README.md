@@ -3,8 +3,8 @@ init
 //init start base
 #include <stdio.h>
 
-
-
+//הפרש בין אות קטנה לאות קטנה באסקי הוא 32 
+ASCII : https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.geeksforgeeks.org%2Fascii-table%2F&psig=AOvVaw3ikbCZqUFrr5uh2zeVAflH&ust=1735484594416000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOjflojeyooDFQAAAAAdAAAAABAJ
 int main(){
 
     return 0;
