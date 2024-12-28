@@ -63,10 +63,10 @@ if (A>='A' && A<'Z')
   scanf("%d",&oddSize);
   if (oddSize%2==0){
   printf("num is NOT ODD");
-  return 1;
+  return -1;
     }else if (1>oddSize>21){
     printf("SIZE INPUT ERROR");
-    return 1;
+    return -1;
   }else
   {
   pyramid(A,oddSize);
@@ -75,7 +75,7 @@ if (A>='A' && A<'Z')
   
 }else
 printf("NOT capital char - LETTER INPUT ERROR EXCEPTION \n");
-return 1;
+return -1;
 
 //pyramid(A,oddSize);
 //reversPyramid(smallChar,oddSize);
