@@ -1,0 +1,4 @@
+ על השערת קולאץ Collatz Conjecture - המתמטיקאי פול ארדש הציע פרס של 500 למי שיצליח לפתור
+את החידה.
+.3 וורדל / וורדעל - נסו את המשחק הבא:
+https://www.haaretz.co.il/riddles/ty-page/haaretz-wordle
