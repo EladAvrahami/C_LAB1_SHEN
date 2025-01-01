@@ -57,8 +57,8 @@ pow(a,b)=pow(a,b/2)*pow(a,b/2) אם זוגי
 <pre\>
 
 // הדפסת המספר עם 4 ספרות לפני הנקודה ו-3 ספרות אחרי הנקודה
-// https://www.geeksforgeeks.org/printf-in-c/
-    <pre>printf("%08.3f\n", num);<pre\>
+// https://www.geeksforgeeks.org/printf-in-c/   //spacial printing
+<pre>printf("%08.3f\n", num);<pre\>
 
 
 ***** Binary values *****
