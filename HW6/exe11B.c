@@ -13,7 +13,8 @@ double randUnit(){
 
 
 int main (){
-
+ //התעסקות והסבר על ספריית זמן ב
+ //HW 2 EXE4myTime
 srand(time(NULL));//כדי לקבל תוצאות שונות בכל הרצה 
 
 printf("random num between 0 and 1:  %05.4f",randUnit());
