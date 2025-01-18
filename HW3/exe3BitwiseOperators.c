@@ -2,6 +2,7 @@
 
 int main(){
 //https://www.mathsisfun.com/binary-decimal-hexadecimal-converter.html
+//https://www.geeksforgeeks.org/bitwise-operators-in-c-cpp/
 //12 binary =00001100
 //42 binary =00101010
 //more explanation in Auxiliary meterials folder
