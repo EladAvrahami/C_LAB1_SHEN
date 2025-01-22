@@ -1,10 +1,8 @@
 init
+
 <pre> 
 //init start base
 #include <stdio.h>
-
-//הפרש בין אות קטנה לאות קטנה באסקי הוא 32 
-ASCII : https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.geeksforgeeks.org%2Fascii-table%2F&psig=AOvVaw3ikbCZqUFrr5uh2zeVAflH&ust=1735484594416000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOjflojeyooDFQAAAAAdAAAAABAJ
 int main(){
 
     return 0;
@@ -25,6 +23,7 @@ a=--c ->
 For loops
 
 ***********Array************
+//https://www.geeksforgeeks.org/c-arrays/
 <pre> 
 int a[10]; //create 10 cells (0-9)
 a[0]=5; //give val of 5 to cell 0 
@@ -37,10 +36,22 @@ int e[3]={6,7,8,2};//ERROR cuz array init with 3 cells
 short a[5]={'h',4,6,7,'E'};//אות הופכת למס לפי אסקי
 int memSize=sizeof(a);//memSize = items(vars)*2 bytes =10
 
+ // Calculate the number of elements in the array
+ int length = sizeof(arr) / sizeof(arr[0]); //חישוב אורך המערך (לא כולל null-terminator)
+
 <pre\> 
 
 
-****************** STRING ***************
+//הפרש בין אות קטנה לאות קטנה באסקי הוא 32 
+ASCII : https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.geeksforgeeks.org%2Fascii-table%2F&psig=AOvVaw3ikbCZqUFrr5uh2zeVAflH&ust=1735484594416000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOjflojeyooDFQAAAAAdAAAAABAJ
+
+
+
+
+//***********************String**************
+https://www.geeksforgeeks.org/strings-in-c/
+can NOT compere 2 String like this :
+if "abc" == "abc";
 
 /*הפרמטר (char* str): הפונקציה מקבלת פרמטר אחד שהוא מצביע למערך תוים (מחרוזת) מסוג char. המצביע char* מציין כי המשתנה str הוא מצביע (pointer) למערך של תוים, כלומר, המערכת מצפה למחרוזת תוים כקלט.
 למשל : char str[] = "12345"
@@ -75,6 +86,8 @@ pow(a,b)=pow(a,b/2)*pow(a,b/2) אם זוגי
 
 
 ***** Binary values *****
+https://www.geeksforgeeks.org/sizeof-operator-c/
+
 To write a C program that takes an integer as input and outputs its binary representation, you can use bitwise operations. Here's a simple example of how to achieve this:
 
 ```c
@@ -130,16 +143,29 @@ The leading zeros ensure that the full 32-bit representation is shown.
 
 
 
-//***********************String**************
-can NOT compere 2 String like this :
-if "abc" == "abc";
+
 
 //סימולציות 
 
 
 
 
+סיכום האלגוריתמים שפגשתם בקורס:
+1. חיפוש לינארי / בינארי
+2.מיון: בועות דלאים מיזוג ובחירה 
+3. נומריים: חזקה ,שורש,חצייה סימולציה ומונטה קרלו אוקלידס למציאת GCD 
+
+
+
+
+
+
+
+
+
 ****************מצביע (pointer)**************************
+ההבדל בין * ל& הוא ש * מצביע על ערך ו & מצביע על כתובת
+
 המצביע הזה מצביע למיקום בזיכרון שבו נשמרת המחרוזת (או כל נתון אחר), ולא מכיל את המידע עצמו ישירות. במקום לשמור את המחרוזת עצמה, המצביע שומר את הכתובת בזיכרון שבה המחרוזת נמצאת.
 
 נניח שיש לנו את הפונקציה strEq:
