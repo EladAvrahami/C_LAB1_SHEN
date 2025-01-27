@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/asus/Desktop/C1/HW1",
-      "program": "c:/Users/asus/Desktop/C1/HW1/build/Debug/outDebug",
+      "cwd": "c:/Users/asus/Desktop/c_lab1_Shen/HW8",
+      "program": "c:/Users/asus/Desktop/c_lab1_Shen/HW8/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
