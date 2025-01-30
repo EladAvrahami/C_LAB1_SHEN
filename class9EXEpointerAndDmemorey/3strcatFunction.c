@@ -12,7 +12,9 @@
 
 int main(){
 
-
+char str1[] = "Hello", str2[] = "World";
+//strcat(str1,str2);
+printf("str: %s\n",strcat(str1,str2));
 
 
 
