@@ -1,4 +1,40 @@
-init
+algo:
+****************GCD:****************
+https://github.com/EladAvrahami/c_lab1_Shen/commit/58c90ea3ee3f98f9c286e9983b267608c976ed7d#diff-9adb57dde3a8c4688e3a11a1341af0b8270a1ae2cb4ceb846c8c29c5c201bb55
+
+*******BinarySearch*************
+https://github.com/EladAvrahami/c_lab1_Shen/commit/1051b94df012f1737e520a8056134ea1543ee353
+
+***********BubbleSorting***************
+https://github.com/EladAvrahami/c_lab1_Shen/commit/3047efc3efc072bb566f970be92b40de71b807fa
+
+***********MergeSort**********
+https://github.com/EladAvrahami/c_lab1_Shen/commit/32d01ff1f08b8d3f4162967c05b1d1686e5a062d   
+and:
+https://github.com/EladAvrahami/c_lab1_Shen/commit/ac15102c6de66b2a8425e38529c5a6c7304722e6
+להשלים משיעור 7 
+
+
+
+******SelectionSort************
+https://github.com/EladAvrahami/c_lab1_Shen/commit/7d1657a855ca03df17f8ca51407adcef26e47092
+
+*******BucketSort/Histogram**************
+https://github.com/EladAvrahami/c_lab1_Shen/commit/3291fdfdba479079ef2899350053dc8ddc2ba60a   
+and:
+https://github.com/EladAvrahami/c_lab1_Shen/commit/3df3a52b5a7fd4bf114e2d546bd49748d9fd7bd0
+
+********simulation algo MonthHall***********
+https://github.com/EladAvrahami/c_lab1_Shen/commit/e600f1eb72a4bac4af7e9cb49cdfed5715abbe37
+
+**********sqrt algo*************
+https://github.com/EladAvrahami/c_lab1_Shen/commit/eda066b6ef6aa89d370506aab6968991163dc7b1
+
+
+
+
+
+
 
 <pre> 
 //init start base
