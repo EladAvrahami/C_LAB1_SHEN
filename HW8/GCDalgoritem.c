@@ -24,7 +24,8 @@ int gcd2(int a, int b) {
 int main() {
     int num1 = 48, num2 = 18;
 
-    printf("GCD of %d and %d is %d\n", num1, num2, gcd(num1, num2));
+   // printf("GCD of %d and %d is %d\n", num1, num2, gcd(num1, num2));
+    printf("GCD2 of %d and %d is %d\n", num1, num2, gcd2(num1, num2));
 
     return 0;
 }
